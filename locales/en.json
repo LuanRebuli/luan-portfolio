@@ -1,0 +1,23 @@
+{
+  "input": { "placeholder": "Name" },
+  "image": "https://previews.dropbox.com/p/thumb/ACXjgCF2kI8YZ1rneIS4DmyMR0X5DY1Ee9Az1nT-lr4h9pS1f4M4FeNVPEQz6PR6RWz3lKjjMHHNZZZIpz4sPiZvJueKnuo5NSTcnLMTB_V6kaXQ-vwWjSlw72EzK06sBtV4Dhbl0r2c8DqeaW1NbX1BfAPwUjTWOQJB5P9Ib4cdRh4n82HQlQfSaYV6ZmRqiqkvNUDFxaTktwla1O2Gb7mEhSPm8uUJ8QK5IUDAY7vawZ8LTD8O-yrw5YN9gXuZ1GGv614kdqXrC6GIYwWViLjKToLpaCT8sno3YhpmLxWgmIPmu6_05kJQQE-0u-ZxL6SqF5JCDBrIJH4bX8w0SO8P/p.png?is_prewarmed=true",
+  "Introduction": {
+    "placeholder": "Search",
+    "IntroductionOrnament": "Introduction"
+  },
+  "Message": {
+    "Hello": "Hello",
+    "ConstName": "Name",
+    "ConstAge": "Age",
+    "ConstAbouth": "Abouth",
+    "MessageComplet": " = `Hello, my name is Luan de Sordi Rebuli and I'm 17 years old. Yes, I'm very young, but I love developing from an early age. I started with Minecraft, programming in Java, and yes, I struggled a lot, but it was a really cool experience. Afterwards, I had some experiences in other Lua games and decided to delve deeper into programming in the Web part - Front-end. Currently, I work as a front-end developer, building dynamic and responsive interfaces with React.JS, optimized with Vite and styled with Styled Components. I have experience in back-end development with Node.JS to create complete applications.`"
+  },
+  "Hotbar": {
+    "Projects": "Projects",
+    "Skills": "Skills",
+    "Profile": "Abouth"
+  },
+  "Projects": {
+    "Tittle": "Projects"
+  }
+}

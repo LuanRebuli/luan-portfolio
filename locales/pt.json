@@ -1,0 +1,23 @@
+{
+  "input": { "placeholder": "Nome" },
+  "image": "https://previews.dropbox.com/p/thumb/ACXWWQracCPtL6rHkWO8F_q4TcvkVWKWiQE9x9vVSIfUJGuJeg3WAchsi7yfSIM8U0TX2dWA_Wc3pLGXqfSkzvvcL26m6rRPEypGHWJYJwrD_im3W4bHIVL-T1Cff8ny44Ze1DZHo2xnq7faIWHC1uyIAW0NLSwtur2Kshj5zDCVor4y6NRryxcjaNOGf2evFrg3DtiBdJNoU9j2zhL-r63r7QWBu4aa9kN8JVWjLDKekGoizt_6g5d3Ayx5l6xfMMISQMVhXTn4g4AQYJSoj9E8kvcHb0vr7goPnskxlmU_Dipv3URI1gA4fKw1A4KpwY5cQMMRN1gG-L01MDzii5bKFFsnIPj4J3T_es9MB12rqQ/p.png",
+  "Introduction": {
+    "placeholder": "Pesquisar",
+    "IntroductionOrnament": "Introdução"
+  },
+  "Message": {
+    "Hello": "Olá",
+    "ConstName": "Nome",
+    "ConstAge": "Idade",
+    "ConstAbouth": "Sobre",
+    "MessageComplet": " = `Olá, me chamo Luan de Sordi Rebuli e tenho 17 anos. Sim, sou muito jovem, mas adoro desenvolver desde cedo. Comecei com Minecraft, programando em Java, e sim, sofri muito, mas foi uma experiência muito legal. Depois, tive algumas experiências em outros jogos em Lua e decidi me aprofundar na programação na parte Web - Front-end. Atualmente, atuo como desenvolvedor front-end, construindo interfaces dinâmicas e responsivas com React.JS, otimizadas com Vite e estilizadas com Styled Components. Possuo experiência em desenvolvimento back-end com Node.JS para criar aplicações completas.`"
+  },
+  "Hotbar": {
+    "Projects": "Projetos",
+    "Skills": "Habilidades",
+    "Profile": "Sobre"
+  },
+  "Projects": {
+    "Tittle": "Projetos"
+  }
+}
