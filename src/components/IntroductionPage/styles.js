@@ -16,8 +16,8 @@ export const ContainerOpen = styled.div`
 export const SecondContainerLight = styled.div` 
     display: flex;
 
-    width: 1500px;
-    height: 800px;
+    width: 1300px;
+    height: 670px;
 
     background: #FFFFFF;
 
@@ -31,8 +31,8 @@ export const SecondContainerLight = styled.div`
 export const SecondContainerDark = styled.div` 
     display: flex;
 
-    width: 1200px;
-    height: 600px;
+    width: 1300px;
+    height: 670px;
 
     background: #111111;
 
@@ -50,7 +50,7 @@ export const LeftContainer = styled.div`
 
     height: 100%;
     width: 30%;
-    border-right: 1px solid #a0a0a0;
+    border-right: 1px solid #31363F;
 `
 
 export const RightContainer = styled.div`
@@ -61,6 +61,7 @@ export const RightContainer = styled.div`
         font-family: "Irish Grover", system-ui; 
         font-weight: 500;
         color: #FFAE50;
+
     }
     
     a {
@@ -80,7 +81,7 @@ export const RightContainer = styled.div`
 
     #constname {
         font-size: 24px;
-        margin: 10px 0 0 20px;
+        margin: 30px 0 0 20px;
         .consoleText {
             color: #00A3FF;
     }
@@ -137,8 +138,8 @@ export const ThreeBolls = styled.div`
 `
 
 export const InputSearchLight = styled.input`
-    width: 200px;
-    height: 40px;
+    width: 230px;
+    height: 45px;
     margin: 0 0 60px 80px;;
 
     background: #F1F1F1;
@@ -151,8 +152,8 @@ export const InputSearchLight = styled.input`
 `
 
 export const InputSearchDark = styled.input`
-    width: 200px;
-    height: 40px;
+    width: 230px;
+    height: 45px;
     margin: 0 0 60px 80px;;
 
     background: #31363F;
@@ -168,8 +169,8 @@ export const IntrodutionOrnamentLight = styled.div`
     align-items: center;
     justify-content: space-evenly;
 
-    width: 280px;
-    height: 50px;
+    width: 300px;
+    height: 53px;
 
     margin: 0 0 300px 40px;
     padding: 10px;

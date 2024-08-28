@@ -10,7 +10,7 @@
     "ConstName": "Nome",
     "ConstAge": "Idade",
     "ConstAbouth": "Sobre",
-    "MessageComplet": " = `Olá, me chamo Luan de Sordi Rebuli e tenho 17 anos. Sim, sou muito jovem, mas adoro desenvolver desde cedo. Comecei com Minecraft, programando em Java, e sim, sofri muito, mas foi uma experiência muito legal. Depois, tive algumas experiências em outros jogos em Lua e decidi me aprofundar na programação na parte Web - Front-end. Atualmente, atuo como desenvolvedor front-end, construindo interfaces dinâmicas e responsivas com React.JS, otimizadas com Vite e estilizadas com Styled Components. Possuo experiência em desenvolvimento back-end com Node.JS para criar aplicações completas.`"
+    "MessageComplet": "`Olá tudo bem? me chamo ${name} e tenho ${age}, esse é o meu portfolio simulando um mab book, fiz esse projeto com intuito de deixar meu projetos visualmente legal para pessoas que desejam me conhecer. Clique nos icones abaixo e poderá descobrir todas as funções do mac book, dentre projects, linkedin, github, contato, configuração para mudar o tema, linguagem. Obrigado pela atenção e vamos codar! 😁`"
   },
   "Hotbar": {
     "Projects": "Projetos",

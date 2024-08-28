@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { motion, px } from "framer-motion";
+import { motion } from "framer-motion";
 import PropTypes from "prop-types";
+import { ArrowLeft, SquareArrowOutUpRight } from "lucide-react";
 
 import {
   Container,
@@ -11,30 +12,50 @@ import {
   ContainerClose,
   ContainerOpen,
   ProjectDiv,
+  FSWDiv,
 } from "./styles";
 
 import ThreeBollsImg from "../../assets/threebolls.png";
-import Nlw from "../../assets/nlw.svg";
+import FSW from "../../assets/mockupfsw.png";
+import NLW from "../../assets/mockupnlw.png";
+import React from "../../assets/react.png";
+import JS from "../../assets/javascript.png";
+import TS from "../../assets/typescript.png";
+import Vite from "../../assets/vite.png";
 
 export const Projects = ({ isDarkMode }) => {
   const [isClose, setClose] = useState(false);
-  const [openDiv1, setOpenDiv1] = useState(true);
-  const [openDiv2, setOpenDiv2] = useState(true);
-  const [openDiv3, setOpenDiv3] = useState(true);
-  const [openDiv4, setOpenDiv4] = useState(true);
-  const [openDiv5, setOpenDiv5] = useState(true);
-  const [openDiv6, setOpenDiv6] = useState(true);
-  const [openDiv7, setOpenDiv7] = useState(true);
+  const [isOpenFSW, setOpenFSW] = useState(true);
+  const [isOpenNLW, setOpenNLW] = useState(true);
+
   const { t } = useTranslation();
 
   const parent = {
-    VariantA: { scale: 1 },
-    VariantB: { scale: 1.25 },
-    VariantC: { width: 500, height: 400 },
+    VariantB: { scale: 1.2 },
   };
 
   const CloseWindow = () => {
     setClose(true);
+  };
+
+  const handleViewProjectFSW = () => {
+    setOpenFSW(false);
+    setClose(true);
+  };
+
+  const handleBackProjectFSW = () => {
+    setOpenFSW(true);
+    setClose(false);
+  };
+
+  const handleViewProjectNLW = () => {
+    setOpenNLW(false);
+    setClose(true);
+  };
+
+  const handleBackProjectNLW = () => {
+    setOpenNLW(true);
+    setClose(false);
   };
 
   return (
@@ -55,29 +76,28 @@ export const Projects = ({ isDarkMode }) => {
 
               <ProjectDiv>
                 <p>
-                  Nlw Expert
-                  <img src={Nlw}></img>
-                  <div></div>
+                  FSW Barber
+                  <div className="div-projects"></div>
                 </p>
                 <p>
                   Nlw Expert
-                  <div></div>
+                  <div className="div-projects"></div>
+                </p>
+                <p>
+                  Luan Rebuli Portfolio
+                  <div className="div-projects"></div>
                 </p>
                 <p>
                   Nlw Expert
-                  <div></div>
+                  <div className="div-projects"></div>
                 </p>
                 <p>
                   Nlw Expert
-                  <div></div>
+                  <div className="div-projects"></div>
                 </p>
                 <p>
                   Nlw Expert
-                  <div></div>
-                </p>
-                <p>
-                  Nlw Expert
-                  <div></div>
+                  <div className="div-projects"></div>
                 </p>
               </ProjectDiv>
             </SecondContainerDark>
@@ -90,168 +110,225 @@ export const Projects = ({ isDarkMode }) => {
               </ThreeBolls>
               <ProjectDiv>
                 <p>
-                  Nlw Expert
+                  FSW Barber
                   <motion.div
                     style={{
-                      width: openDiv1 ? 400 : 1180,
-                      height: openDiv1 ? 300 : 550,
-                      position: openDiv1 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
-                      borderRadius: 20,
-                      cursor: "pointer",
-                    }}
-                    variants={parent}
-                    initial="VariantA"
-                    whileHover={openDiv1 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv1(!openDiv1)}
-                  >
-                    <img src={Nlw}></img>
-                  </motion.div>
-                </p>
-                <p>
-                  Nlw Expert
-                  <motion.div
-                    style={{
-                      width: openDiv2 ? 400 : 1180,
-                      height: openDiv2 ? 300 : 550,
-                      position: openDiv2 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
 
                       borderRadius: 20,
                       cursor: "pointer",
                     }}
                     variants={parent}
                     initial="VariantA"
-                    whileHover={openDiv2 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv2(!openDiv2)}
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectFSW}
                   >
-                    <img src={Nlw}></img>
+                    <img src={FSW} width="340px" height="200px" />
                   </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
+                  NLW Expert
                   <motion.div
                     style={{
-                      width: openDiv3 ? 400 : 1180,
-                      height: openDiv3 ? 300 : 550,
-                      position: openDiv3 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
 
                       borderRadius: 20,
                       cursor: "pointer",
                     }}
                     variants={parent}
                     initial="VariantA"
-                    whileHover={openDiv3 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv3(!openDiv3)}
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectNLW}
                   >
-                    <img src={Nlw}></img>
+                    <img src={NLW} width="400px" height="270px" />
                   </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
+                  FSW Barber
                   <motion.div
                     style={{
-                      width: openDiv4 ? 400 : 1180,
-                      height: openDiv4 ? 300 : 550,
-                      position: openDiv4 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
 
                       borderRadius: 20,
                       cursor: "pointer",
                     }}
                     variants={parent}
                     initial="VariantA"
-                    whileHover={openDiv4 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv4(!openDiv4)}
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectFSW}
                   >
-                    <img src={Nlw}></img>
+                    <img src={FSW} width="340px" height="200px" />
                   </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
+                  FSW Barber
                   <motion.div
                     style={{
-                      width: openDiv5 ? 400 : 1180,
-                      height: openDiv5 ? 300 : 550,
-                      position: openDiv5 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
 
                       borderRadius: 20,
                       cursor: "pointer",
                     }}
                     variants={parent}
                     initial="VariantA"
-                    whileHover={openDiv5 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv5(!openDiv5)}
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectFSW}
                   >
-                    <img src={Nlw}></img>
+                    <img src={FSW} width="340px" height="200px" />
                   </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
+                  FSW Barber
                   <motion.div
                     style={{
-                      width: openDiv6 ? 400 : 1180,
-                      height: openDiv6 ? 300 : 550,
-                      position: openDiv6 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
 
                       borderRadius: 20,
                       cursor: "pointer",
                     }}
                     variants={parent}
                     initial="VariantA"
-                    whileHover={openDiv6 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv6(!openDiv6)}
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectFSW}
                   >
-                    <img src={Nlw}></img>
+                    <img src={FSW} width="340px" height="200px" />
                   </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
+                  FSW Barber
                   <motion.div
                     style={{
-                      width: openDiv7 ? 400 : 1180,
-                      height: openDiv7 ? 300 : 550,
-                      position: openDiv7 ? "" : "absolute",
-                      margin: 10,
-                      top: 302,
-                      right: 610,
-                      background: "rgb(0, 0, 0)",
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+
+                      marginBottom: "10",
                       borderRadius: 20,
                       cursor: "pointer",
                     }}
                     variants={parent}
                     initial="VariantA"
-                    whileHover={openDiv7 ? "VariantB" : ""}
-                    onClick={() => setOpenDiv7(!openDiv7)}
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectFSW}
                   >
-                    <img src={Nlw}></img>
+                    <img src={FSW} width="340px" height="200px" />
                   </motion.div>
                 </p>
               </ProjectDiv>
             </SecondContainerLight>
           )}
         </ContainerOpen>
+      )}
+      {isOpenFSW ? (
+        <></>
+      ) : (
+        <FSWDiv>
+          <div className="esquerda">
+            <button className="arrow" onClick={handleBackProjectFSW}>
+              <ArrowLeft size={30} />
+            </button>
+            <img src={FSW} width={600} height={300} />
+          </div>
+          <div className="direita">
+            <h1>FSW Barber</h1>
+            <span>
+              Participei do evento da RocketSeat, junto com o professor Diego
+              Fernandes que me ensinou várias coisas. Desenvolvimento de uma
+              aplicação front-end em ReactJS, aplicação dos conceitos de
+              Propriedades, Estados e Componentes, tipagem com Typescript,
+              tooling com Vite, interface responsiva com TailwindCSS, uso de
+              APIs da Web como Web Storage e Web Speech.
+            </span>
+            <div className="tecnologias">
+              <img src={TS} />
+              <img src={Vite} />
+              <img src={React} />
+            </div>
+
+            <div className="buttons">
+              <a
+                href="https://nlw-expert-notes-ndwt.vercel.app/"
+                target="_blank"
+              >
+                <button>Abra em seu navegador</button>
+              </a>
+
+              <a
+                href="https://github.com/LuanRebuli/nlw-expert-notes"
+                target="_blank"
+              >
+                <button>Repositorio</button>
+              </a>
+            </div>
+          </div>
+        </FSWDiv>
+      )}
+
+      {isOpenNLW ? (
+        <></>
+      ) : (
+        <FSWDiv>
+          <div className="esquerda">
+            <button className="arrow" onClick={handleBackProjectNLW}>
+              <ArrowLeft size={30} />
+            </button>
+            <img src={NLW} width={600} height={300} />
+          </div>
+          <div className="direita">
+            <h1>NLW Expert</h1>
+            <span>
+              Participei do evento da RocketSeat, junto com o professor Diego
+              Fernandes que me ensinou várias coisas. Desenvolvimento de uma
+              aplicação front-end em ReactJS, aplicação dos conceitos de
+              Propriedades, Estados e Componentes, tipagem com Typescript,
+              tooling com Vite, interface responsiva com TailwindCSS, uso de
+              APIs da Web como Web Storage e Web Speech.
+            </span>
+            <div className="tecnologias">
+              <img src={TS} />
+              <img src={Vite} />
+              <img src={React} />
+            </div>
+
+            <div className="buttons">
+              <a
+                href="https://nlw-expert-notes-ndwt.vercel.app/"
+                target="_blank"
+              >
+                <button>Abra em seu navegador</button>
+              </a>
+
+              <a
+                href="https://github.com/LuanRebuli/nlw-expert-notes"
+                target="_blank"
+              >
+                <button>Repositorio</button>
+              </a>
+            </div>
+          </div>
+        </FSWDiv>
       )}
     </Container>
   );
