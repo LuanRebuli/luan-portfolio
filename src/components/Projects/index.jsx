@@ -19,9 +19,13 @@ import ThreeBollsImg from "../../assets/threebolls.png";
 import FSW from "../../assets/mockupfsw.png";
 import NLW from "../../assets/mockupnlw.png";
 import React from "../../assets/react.png";
-import JS from "../../assets/javascript.png";
 import TS from "../../assets/typescript.png";
 import Vite from "../../assets/vite.png";
+import Next from "../../assets/next-js.svg";
+import Tailwind from "../../assets/tailwind.png";
+import ShadCn from "../../assets/shadcn.png";
+import PostgreSQL from "../../assets/postgresql.svg";
+import NextAuth from "../../assets/next-auth.png";
 
 export const Projects = ({ isDarkMode }) => {
   const [isClose, setClose] = useState(false);
@@ -254,29 +258,31 @@ export const Projects = ({ isDarkMode }) => {
           <div className="direita">
             <h1>FSW Barber</h1>
             <span>
-              Participei do evento da RocketSeat, junto com o professor Diego
-              Fernandes que me ensinou várias coisas. Desenvolvimento de uma
-              aplicação front-end em ReactJS, aplicação dos conceitos de
-              Propriedades, Estados e Componentes, tipagem com Typescript,
-              tooling com Vite, interface responsiva com TailwindCSS, uso de
-              APIs da Web como Web Storage e Web Speech.
+              Este projeto foi desenvolvido durante a Full Stack Week da Full
+              Stack Club. Eu gosto de participar de eventos de programação, que
+              sempre temos o que aprender e nessa vez não foi diferente e me
+              mostrou a importância de commits com padronização, a eficiência do
+              next js e do tailwindcss. Fiz a responsabilidade total do projeto
+              sozinho. O projeto em si foi de uma barbearia com sistema de
+              agendamentos com banco de dados, pesquisa de barbearia e serviços,
+              sistema de login com google.
             </span>
             <div className="tecnologias">
               <img src={TS} />
-              <img src={Vite} />
+              <img src={Next} />
               <img src={React} />
+              <img src={Tailwind} />
+              <img src={NextAuth} />
+              <img src={ShadCn} />
             </div>
 
             <div className="buttons">
-              <a
-                href="https://nlw-expert-notes-ndwt.vercel.app/"
-                target="_blank"
-              >
+              <a href="https://fsw-barber-phi.vercel.app/" target="_blank">
                 <button>Abra em seu navegador</button>
               </a>
 
               <a
-                href="https://github.com/LuanRebuli/nlw-expert-notes"
+                href="https://github.com/LuanRebuli/fsw-barber/tree/master"
                 target="_blank"
               >
                 <button>Repositorio</button>

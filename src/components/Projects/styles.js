@@ -108,6 +108,8 @@ export const FSWDiv = styled.div`
 
     img {
       margin-left: 10px;
+      width: 86px;
+      height: 73px;
     }
   }
 
