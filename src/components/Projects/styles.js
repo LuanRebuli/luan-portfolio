@@ -47,10 +47,14 @@ export const ProjectDiv = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   grid-template-rows: 1fr;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 
   p {
     text-align: center;
+    font-family: "Irish Grover", system-ui;
+    font-weight: 500;
+    font-size: 20px;
+
   }
 `;
 
@@ -91,7 +95,7 @@ export const FSWDiv = styled.div`
   h1 {
     color: #000000;
 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Irish Grover", system-ui;
     font-weight: 500;
   }
@@ -114,7 +118,7 @@ export const FSWDiv = styled.div`
   }
 
   .buttons {
-    margin-top: 50px;
+    margin-top: 30px;
 
     button {
       width: 219px;
