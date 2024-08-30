@@ -32,7 +32,7 @@ export const SecondContainerDark = styled.div`
   width: 1300px;
   height: 670px;
 
-  background: #111111;
+  background: #363431;
 
   border-radius: 9px;
   box-shadow: 0px 4px 4px 0px #00000040;
@@ -40,6 +40,7 @@ export const SecondContainerDark = styled.div`
   margin-bottom: 60px;
   overflow: hidden;
   overflow-y: scroll;
+  color: white;
 `;
 
 export const ProjectDiv = styled.div`

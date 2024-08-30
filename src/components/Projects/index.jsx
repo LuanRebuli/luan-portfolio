@@ -156,31 +156,195 @@ export const Projects = ({ isDarkMode }) => {
                   <img src={ThreeBollsImg} id="bollsimg"></img>
                 </button>
               </ThreeBolls>
-
               <ProjectDiv>
                 <p>
                   FSW Barber
-                  <div className="div-projects"></div>
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectFSW}
+                  >
+                    <img src={FSW} width="340px" height="200px" />
+                  </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
-                  <div className="div-projects"></div>
+                  NLW Expert
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectNLW}
+                  >
+                    <img src={NLW} width="400px" height="270px" />
+                  </motion.div>
                 </p>
                 <p>
-                  Luan Rebuli Portfolio
-                  <div className="div-projects"></div>
+                  Dev Burguer
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectBurguer}
+                  >
+                    <img src={Devburguer} width="340px" height="200px" />
+                  </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
-                  <div className="div-projects"></div>
+                  Luan PortFolio
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectPortfolio}
+                  >
+                    <img src={Portfolio} width="340px" height="200px" />
+                  </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
-                  <div className="div-projects"></div>
+                  Naútica Mídia
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectNautica}
+                  >
+                    <img src={NauticaMidia} width="340px" height="200px" />
+                  </motion.div>
                 </p>
                 <p>
-                  Nlw Expert
-                  <div className="div-projects"></div>
+                  Weather App
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectWeather}
+                  >
+                    <img src={weather} width="340px" height="200px" />
+                  </motion.div>
+                </p>
+                <p>
+                  PokeDex
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectPokedex}
+                  >
+                    <img src={Pokedex} width="340px" height="200px" />
+                  </motion.div>
+                </p>
+                <p>
+                  Todo List
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectTodoList}
+                  >
+                    <img src={TodoList} width="340px" height="200px" />
+                  </motion.div>
+                </p>
+                <p>
+                  Create User
+                  <motion.div
+                    style={{
+                      width: 150,
+                      height: 210,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "20px",
+                      borderRadius: 20,
+                      cursor: "pointer",
+                    }}
+                    variants={parent}
+                    initial="VariantA"
+                    whileHover={"VariantB"}
+                    onClick={handleViewProjectCreateUser}
+                  >
+                    <img src={CreateUser} width="340px" height="200px" />
+                  </motion.div>
                 </p>
               </ProjectDiv>
             </SecondContainerDark>
