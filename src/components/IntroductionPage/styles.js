@@ -73,9 +73,12 @@ export const RightContainer = styled.div`
         text-align: center;
         font-size: 48px;
         margin-top: 20px;
+        font-family: "Irish Grover", system-ui;
+        font-weight: bold;
 
         .consoleText {
             color: #00A3FF;
+            
     }
     }
 

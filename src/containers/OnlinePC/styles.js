@@ -46,8 +46,12 @@ export const HotBar = styled.div`
         cursor: pointer;
     }
 
+    button:active {
+        opacity: 0.5;
+    }
+
     button:hover {
-        opacity: 50%;
+        opacity: 0.7;
     }
 
     p {

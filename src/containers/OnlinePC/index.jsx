@@ -10,7 +10,7 @@ import Habilidades from "../../assets/habilidades.png";
 import curriculo from "../../assets/curriculo.png";
 
 import { LanguageSelection } from "../../components/LanguageSelection";
-import { Profile } from "../../components/Profile";
+import { Abouth } from "../../components/Profile";
 import { ThemeButton } from "../../components/ThemeButton";
 import { IntroductionPage } from "../../components/IntroductionPage";
 import { Projects } from "../../components/Projects";
@@ -80,7 +80,7 @@ export const OnlinePC = () => {
 
       {openSkills ? <Skills isDarkMode={isDarkMode}></Skills> : <div></div>}
 
-      {openProfile ? <Profile isDarkMode={isDarkMode}></Profile> : <div></div>}
+      {openProfile ? <Abouth isDarkMode={isDarkMode}></Abouth> : <div></div>}
 
       <HotBar>
         <button onClick={openWindowProject}>

@@ -24,6 +24,7 @@ export const SecondContainerLight = styled.div`
   margin-bottom: 60px;
   overflow: hidden;
   overflow-y: scroll;
+
 `;
 
 export const SecondContainerDark = styled.div`
@@ -41,6 +42,7 @@ export const SecondContainerDark = styled.div`
   overflow: hidden;
   overflow-y: scroll;
   color: white;
+
 `;
 
 export const ProjectDiv = styled.div`
