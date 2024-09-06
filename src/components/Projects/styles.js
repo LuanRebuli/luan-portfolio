@@ -25,6 +25,11 @@ export const SecondContainerLight = styled.div`
   overflow: hidden;
   overflow-y: scroll;
 
+  @media screen and (max-width: 1020px) {
+    width: 350px;
+    height: 440px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const SecondContainerDark = styled.div`
@@ -42,7 +47,11 @@ export const SecondContainerDark = styled.div`
   overflow: hidden;
   overflow-y: scroll;
   color: white;
-
+  @media screen and (max-width: 1020px) {
+    width: 350px;
+    height: 440px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const ProjectDiv = styled.div`
@@ -57,7 +66,21 @@ export const ProjectDiv = styled.div`
     font-family: "Irish Grover", system-ui;
     font-weight: 500;
     font-size: 20px;
+  }
+  @media screen and (max-width: 1020px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 170px;
 
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      width: 170px;
+      height: 100px;
+    }
   }
 `;
 
@@ -141,14 +164,49 @@ export const FSWDiv = styled.div`
       }
     }
   }
+  @media screen and (max-width: 1020px) {
+    width: 350px;
+    height: 440px;
+    margin-bottom: 40px;
+
+    .esquerda {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+    span {
+      color: #000000;
+
+      font-weight: 500;
+      font-size: 15px;
+      margin: 0 10px 0 15px;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+    .tecnologias {
+      margin-top: 30px;
+
+      img {
+        margin-left: 10px;
+        width: 33px;
+        height: 33px;
+      }
+    }
+    .buttons {
+      button {
+      width: 130px;
+      height: 30px;
+      font-size: 10px;
+    }
+    }
+  }
 `;
 
 export const ThreeBolls = styled.div`
-  position: relative;
-  top: 10px;
-  left: 10px;
-  width: 70px;
-  height: 40px;
+  margin: 12px 0px 0px 16px;
+  z-index: 1;
 
   button {
     border: none;

@@ -161,8 +161,6 @@ export const Projects = ({ isDarkMode }) => {
                   FSW Barber
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -182,8 +180,6 @@ export const Projects = ({ isDarkMode }) => {
                   NLW Expert
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -203,8 +199,6 @@ export const Projects = ({ isDarkMode }) => {
                   Dev Burguer
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -224,8 +218,6 @@ export const Projects = ({ isDarkMode }) => {
                   Luan PortFolio
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -245,8 +237,6 @@ export const Projects = ({ isDarkMode }) => {
                   Naútica Mídia
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -266,8 +256,6 @@ export const Projects = ({ isDarkMode }) => {
                   Weather App
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -287,8 +275,6 @@ export const Projects = ({ isDarkMode }) => {
                   PokeDex
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -308,8 +294,6 @@ export const Projects = ({ isDarkMode }) => {
                   Todo List
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -329,8 +313,6 @@ export const Projects = ({ isDarkMode }) => {
                   Create User
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -360,8 +342,6 @@ export const Projects = ({ isDarkMode }) => {
                   FSW Barber
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -381,8 +361,6 @@ export const Projects = ({ isDarkMode }) => {
                   NLW Expert
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -402,8 +380,6 @@ export const Projects = ({ isDarkMode }) => {
                   Dev Burguer
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -423,8 +399,6 @@ export const Projects = ({ isDarkMode }) => {
                   Luan PortFolio
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -444,8 +418,6 @@ export const Projects = ({ isDarkMode }) => {
                   Naútica Mídia
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -465,8 +437,6 @@ export const Projects = ({ isDarkMode }) => {
                   Weather App
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -486,8 +456,6 @@ export const Projects = ({ isDarkMode }) => {
                   PokeDex
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -507,8 +475,6 @@ export const Projects = ({ isDarkMode }) => {
                   Todo List
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
@@ -528,8 +494,6 @@ export const Projects = ({ isDarkMode }) => {
                   Create User
                   <motion.div
                     style={{
-                      width: 150,
-                      height: 210,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
