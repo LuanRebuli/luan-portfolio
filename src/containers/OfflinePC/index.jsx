@@ -19,6 +19,7 @@ import { ThemeButton } from "../../components/ThemeButton";
 import Seta from "../../assets/seta.png";
 import SetaLight from "../../assets/setalight.png";
 import apple from "../../assets/logo.png";
+import LogoLuan from "../../assets/luanlogo.png";
 
 export const OfflinePC = () => {
   const navigate = useNavigate();
@@ -67,7 +68,7 @@ export const OfflinePC = () => {
           <LanguageSelection isDarkMode={isDarkMode} />
           <ThemeButton isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
 
-          <Logo src={t("image")} id="logo" alt="logo"></Logo>
+          <Logo src={LogoLuan} id="logo" alt="logo"></Logo>
           <form onSubmit={handleSubmit}>
             {isDarkMode ? (
               <InputNameDark

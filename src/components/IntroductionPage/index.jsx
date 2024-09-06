@@ -56,7 +56,6 @@ export const IntroductionPage = ({ isDarkMode }) => {
                     <img src={ThreeBollsImg} id="bollsimg"></img>
                   </button>
                 </ThreeBolls>
-
                 <div>
                   <InputSearchDark
                     placeholder={t("Introduction.placeholder")}
@@ -113,7 +112,6 @@ export const IntroductionPage = ({ isDarkMode }) => {
                     <img src={ThreeBollsImg} id="bollsimg"></img>
                   </button>
                 </ThreeBolls>
-
                 <div>
                   <InputSearchLight
                     placeholder={t("Introduction.placeholder")}

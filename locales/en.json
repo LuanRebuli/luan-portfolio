@@ -1,6 +1,5 @@
 {
   "input": { "placeholder": "Name" },
-  "image": "https://previews.dropbox.com/p/thumb/ACXjgCF2kI8YZ1rneIS4DmyMR0X5DY1Ee9Az1nT-lr4h9pS1f4M4FeNVPEQz6PR6RWz3lKjjMHHNZZZIpz4sPiZvJueKnuo5NSTcnLMTB_V6kaXQ-vwWjSlw72EzK06sBtV4Dhbl0r2c8DqeaW1NbX1BfAPwUjTWOQJB5P9Ib4cdRh4n82HQlQfSaYV6ZmRqiqkvNUDFxaTktwla1O2Gb7mEhSPm8uUJ8QK5IUDAY7vawZ8LTD8O-yrw5YN9gXuZ1GGv614kdqXrC6GIYwWViLjKToLpaCT8sno3YhpmLxWgmIPmu6_05kJQQE-0u-ZxL6SqF5JCDBrIJH4bX8w0SO8P/p.png?is_prewarmed=true",
   "Introduction": {
     "placeholder": "Search",
     "IntroductionOrnament": "Introduction"
@@ -10,7 +9,7 @@
     "ConstName": "Name",
     "ConstAge": "Age",
     "ConstAbouth": "Abouth",
-    "MessageComplet": " = `Hello, my name is Luan de Sordi Rebuli and I'm 17 years old. Yes, I'm very young, but I love developing from an early age. I started with Minecraft, programming in Java, and yes, I struggled a lot, but it was a really cool experience. Afterwards, I had some experiences in other Lua games and decided to delve deeper into programming in the Web part - Front-end. Currently, I work as a front-end developer, building dynamic and responsive interfaces with React.JS, optimized with Vite and styled with Styled Components. I have experience in back-end development with Node.JS to create complete applications.`"
+    "MessageComplet": " = `Hello, how are you? My name is ${name} and I have ${age}. This is my portfolio simulating a Macbook. I created this project with the intention of making my projects visually cool for people who want to get to know me. Click on the icons below and you will be able to discover all the functions of the Macbook, including projects, skills, about, LinkedIn, GitHub, and contact. Buttons to change the theme and language. Thank you for your attention and let's code!`"
   },
   "Hotbar": {
     "Projects": "Projects",
@@ -18,6 +17,49 @@
     "Profile": "Abouth"
   },
   "Projects": {
-    "Tittle": "Projects"
+    "Tittle": "Projects",
+    "Navigator": "Open in your browser",
+    "GitHub": "Repository",
+    "FSWBarber": {
+      "Text": "This project was developed during Full Stack Club's Full Stack Week. I like to participate in programming events, where there is always something to learn, and this time was no different and showed me the importance of standardized commits, the efficiency of next js and tailwindcss. I took full responsibility for the project alone. The project itself was for a barber shop with a scheduling system with a database, barber shop and services search, and a login system with Google."
+    },
+    "NlwExpert": {
+      "Text": "I participated in the RocketSeat event, together with professor Diego Fernandes who taught me several things. Development of a front-end application in ReactJS, application of the concepts of Properties, States and Components, typing with Typescript, tooling with Vite, responsive interface with TailwindCSS, use of Web APIs such as Web Storage and Web Speech."
+    },
+    "LuanPortfolio": {
+      "Text": "I created this personal portfolio inspired by the MacBook design. Using React JS and Styled Components, each section works as an independent application, providing an innovative experience for the user. With the option to choose between light and dark themes and I used i18 to be able to switch between Portuguese and English. This project allowed me to explore my creativity and it was fulfilling to make this code and a lot of fun, I would say the main thing."
+    },
+    "DevBurguer": {
+      "Text": "Created as a final project for the Dev Club course, this full stack project simulates a complete online burger restaurant. With an intuitive shopping cart, an encrypted password-protected login system, and several payment options, it offers a complete shopping experience."
+    },
+    "NauticaMidia": {
+      "Text": "As a freelancer, I developed a website for a visual communication company using React JS, Next-JS, TypeScript, Tailwind CSS and Shadcn. I created a customized and dynamic platform capable of presenting a wide variety of sign and banner designs in a visually impactful way. The combination of these technologies allowed us to build a robust and scalable solution, meeting the specific needs of the client."
+    },
+    "WeatherApp": {
+      "Text": "Let's get to know the Climate."
+    },
+    "PokeDex": {
+      "Text": "I developed a simple Pokédex using JavaScript to consume the PokéAPI. The application allows you to search for Pokémon and display information such as name, type, abilities, and sprite. This project was essential to consolidate my knowledge in JavaScript and introduced me to the world of APIs."
+    },
+    "TodoList": {
+      "Text": "This project has a task marker, delete and save the last list made after reloading or exiting the site."
+    },
+    "CreateUser": {
+      "Text": "Dev-Club course project for React and Node to learn how to use front-end and backend together with professor Rodolfo Mori."
+    }
+  },
+  "Skills": {
+    "Const": "skills",
+    "Tittle": " = `Technologies/Languages ​​I program/use`"
+  },
+  "Abouth": {
+    "ConstLinguages": " languages",
+    "ConstFuture": " future",
+    "ConstAbouth": " abouth",
+    "ConstHistory": " history",
+    "Tittle": " = `Learn more about me`",
+    "History": " = `Hey, developers! I'm Luan, a die-hard gamer who fell in love with programming. I started playing when I was 4 years old, and after a few years in this square world, I started developing plugins for Minecraft and then went further, developing scripts to make GTA RP even more fun. Today, I live writing code in React and having a lot of fun with it! But, when I'm not in front of the computer, you can find me surfing 🌊, doing some tricks on the skateboard 🛹 or dunking on the basketball court, a fanatic for competing. Oh, and of course, I don't forget to go to the gym to keep my body in shape. The life of a programmer who loves life, right?`",
+    "Future": " = `I want to be a renowned developer and study Systems Analysis and Development at UFPR. I'm working hard to get my place at the federal university. I currently freelance in FrontEnd and continue to study to develop my skills and get my first official job.`",
+    "Languages": " = `I was born in Campinas, São Paulo and moved to the coast of Paraná when I was 1 year old. I am fluent in Portuguese and have an intermediate level of English.`"
   }
 }

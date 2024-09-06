@@ -25,6 +25,12 @@ export const SecondContainerLight = styled.div`
     box-shadow: 0px 4px 4px 0px #00000040;
 
     margin-bottom: 60px;
+
+    @media screen and (max-width: 1020px) {
+        width: 350px;
+        height: 440px;
+        margin-bottom: 40px;
+    }
     
 `
 
@@ -41,6 +47,12 @@ export const SecondContainerDark = styled.div`
 
     margin-bottom: 60px;
     
+    @media screen and (max-width: 1020px) {
+        width: 350px;
+        height: 440px;
+        margin-bottom: 40px;
+    }
+    
 `
 
 export const LeftContainer = styled.div`
@@ -51,6 +63,12 @@ export const LeftContainer = styled.div`
     height: 100%;
     width: 30%;
     border-right: 1px solid #31363F;
+
+    @media screen and (max-width: 1020px) {
+        height: 0;
+        width: 0;
+        border: none;
+    }
 `
 
 export const RightContainer = styled.div`
@@ -119,9 +137,40 @@ export const RightContainer = styled.div`
         color: #FF008A;
 
     }
+
+    @media screen and (max-width: 1020px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        overflow-y: auto;
+
+        #console {
+            font-size: 25px;
+            margin-top: 40px;
+            
+        }
+        #constname {
+            font-size: 20px;
+            margin: 20px 0 0 20px;
+        }
+        #constage {
+            font-size: 20px;
+            
+        }
+        #message {
+            font-size: 20px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+    }
 `
 export const ThreeBolls = styled.div`
+    display: flex;
+    width: 70px;
+    height: 40px;
     margin: 12px 0px 0px 16px;
+    z-index: 1;
 
     button {
     border: none;
@@ -138,6 +187,7 @@ export const ThreeBolls = styled.div`
     #bollsimg:hover {
         opacity: 70%;
     }
+    
 `
 
 export const InputSearchLight = styled.input`
@@ -152,6 +202,9 @@ export const InputSearchLight = styled.input`
     border: none;
 
     text-align: center;
+    @media screen and (max-width: 1020px) {
+        visibility: hidden;
+    }
 `
 
 export const InputSearchDark = styled.input`
@@ -165,6 +218,9 @@ export const InputSearchDark = styled.input`
     border: none;
 
     text-align: center;
+    @media screen and (max-width: 1020px) {
+        visibility: hidden;
+    }
 `
 
 export const IntrodutionOrnamentLight = styled.div`
@@ -199,6 +255,9 @@ export const IntrodutionOrnamentLight = styled.div`
     #number {
         color: #A2A2A2;
     font-size: 12px;
+    }
+    @media screen and (max-width: 1020px) {
+        visibility: hidden;
     }
 `
 
@@ -235,7 +294,9 @@ export const IntrodutionOrnamentDark = styled.div`
         color: #A2A2A2;
     font-size: 12px;
     }
-
+    @media screen and (max-width: 1020px) {
+        visibility: hidden;
+    }
 `
 
 export const ProfileLight = styled.div`
@@ -253,6 +314,9 @@ export const ProfileLight = styled.div`
 
     p {
         font-size: 13px;
+    }
+    @media screen and (max-width: 1020px) {
+        visibility: hidden;
     }
 `
 
@@ -272,5 +336,8 @@ export const ProfileDark = styled.div`
     p {
         font-size: 13px;
         color: white;
+    }
+    @media screen and (max-width: 1020px) {
+        visibility: hidden;
     }
 `

@@ -22,7 +22,7 @@ export const HotBar = styled.div`
     position: absolute;
     bottom: 50px;
     
-    width: 1350px;
+    width: 70%;
     height: 70px;
 
     border-radius: 19px;
@@ -58,5 +58,16 @@ export const HotBar = styled.div`
         color: #D9D9D9;
     }
     
+    min-width: 500px {
 
+    }
+    @media screen and (max-width: 1020px) {
+        width: 97%;
+        position: absolute;
+        bottom: 30px;
+        img {
+        width: 40px;
+        height: 40px;
+    }
+    }
 `

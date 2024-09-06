@@ -562,16 +562,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>FSW Barber</h1>
-            <span>
-              Este projeto foi desenvolvido durante a Full Stack Week da Full
-              Stack Club. Eu gosto de participar de eventos de programação, que
-              sempre temos o que aprender e nessa vez não foi diferente e me
-              mostrou a importância de commits com padronização, a eficiência do
-              next js e do tailwindcss. Fiz a responsabilidade total do projeto
-              sozinho. O projeto em si foi de uma barbearia com sistema de
-              agendamentos com banco de dados, pesquisa de barbearia e serviços,
-              sistema de login com google.
-            </span>
+            <span>{t("Projects.FSWBarber.Text")}</span>
             <div className="tecnologias">
               <img src={TS} />
               <img src={Next} />
@@ -584,14 +575,14 @@ export const Projects = ({ isDarkMode }) => {
 
             <div className="buttons">
               <a href="https://fsw-barber-phi.vercel.app/" target="_blank">
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/fsw-barber/tree/master"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -610,14 +601,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>NLW Expert</h1>
-            <span>
-              Participei do evento da RocketSeat, junto com o professor Diego
-              Fernandes que me ensinou várias coisas. Desenvolvimento de uma
-              aplicação front-end em ReactJS, aplicação dos conceitos de
-              Propriedades, Estados e Componentes, tipagem com Typescript,
-              tooling com Vite, interface responsiva com TailwindCSS, uso de
-              APIs da Web como Web Storage e Web Speech.
-            </span>
+            <span>{t("Projects.NlwExpert.Text")}</span>
             <div className="tecnologias">
               <img src={TS} />
               <img src={Vite} />
@@ -630,14 +614,14 @@ export const Projects = ({ isDarkMode }) => {
                 href="https://nlw-expert-notes-ndwt.vercel.app/"
                 target="_blank"
               >
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/nlw-expert-notes"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -656,13 +640,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>Dev Burguer</h1>
-            <span>
-              Criado como trabalho de conclusão do curso Dev Club, este projeto
-              full stack simula uma hamburgueria online completa. Com um
-              carrinho de compras intuitivo, sistema de login protegido por
-              senha criptografada e diversas opções de pagamento, oferece uma
-              experiência de compra completa.
-            </span>
+            <span>{t("Projects.DevBurguer.Text")}</span>
             <div className="tecnologias">
               <img src={JS} />
               <img src={Vite} />
@@ -674,14 +652,14 @@ export const Projects = ({ isDarkMode }) => {
 
             <div className="buttons">
               <a href="" target="_blank">
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/nlw-expert-notes"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -700,16 +678,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>Luan Portfolio</h1>
-            <span>
-              Criei esse meu portfólio pessoal inspirado no design do MacBook.
-              Utilizando React JS e Styled Components, cada seção funciona como
-              um aplicativo independente, proporcionando uma experiência
-              inovadora para o usuário. Com a opção de escolher entre temas
-              claro e escuro e usei o i18 para possibilidade de alternar entre
-              português e inglês. Este projeto me permitiu explorar minha
-              criatividade e foi realizador fazer esse codigo e muito divertido,
-              o principal eu diria.
-            </span>
+            <span>{t("Projects.LuanPortfolio.Text")}</span>
             <div className="tecnologias">
               <img src={JS} />
               <img src={Vite} />
@@ -720,14 +689,14 @@ export const Projects = ({ isDarkMode }) => {
 
             <div className="buttons">
               <a href="" target="_blank">
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/luan-portfolio"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -746,15 +715,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>Naútica Mídia</h1>
-            <span>
-              Como freelancer, desenvolvi um site para uma empresa de
-              comunicação visual, utilizando React JS, Next-JS, TypeScript,
-              Tailwind CSS e Shadcn. Criei uma plataforma personalizada e
-              dinâmica, capaz de apresentar uma ampla variedade de designs de
-              placas e faixadas de forma visualmente impactante. A combinação
-              dessas tecnologias permitiu construir uma solução robusta e
-              escalável, atendendo às necessidades específicas do cliente.
-            </span>
+            <span>{t("Projects.NauticaMidia.Text")}</span>
             <div className="tecnologias">
               <img src={TS} />
               <img src={Next} />
@@ -765,11 +726,11 @@ export const Projects = ({ isDarkMode }) => {
 
             <div className="buttons">
               <a href="" target="_blank">
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a href="" target="_blank">
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -788,10 +749,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>Todo List</h1>
-            <span>
-              Este projeto tem um marcador de tarefas, exclua e salve a última
-              lista feita após recarregar ou sair do site.
-            </span>
+            <span>{t("Projects.TodoList.Text")}</span>
             <div className="tecnologias">
               <img src={JS} />
             </div>
@@ -801,14 +759,14 @@ export const Projects = ({ isDarkMode }) => {
                 href="https://nlw-expert-notes-ndwt.vercel.app/"
                 target="_blank"
               >
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/nlw-expert-notes"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -826,7 +784,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>Weather App</h1>
-            <span>Vamos conhecer o Clima.</span>
+            <span>{t("Projects.WeatherApp.Text")}</span>
             <div className="tecnologias">
               <img src={JS} />
             </div>
@@ -836,14 +794,14 @@ export const Projects = ({ isDarkMode }) => {
                 href="https://luanrebuli.github.io/weather-app/"
                 target="_blank"
               >
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/weather-app"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -861,10 +819,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>CreateUser</h1>
-            <span>
-              Projeto do curso Dev-Club para React e Node para aprender a usar
-              front-end e backend juntamente com professor Rodolfo Mori.
-            </span>
+            <span>{t("Projects.CreateUser.Text")}</span>
             <div className="tecnologias">
               <img src={JS} />
               <img src={NodeJs} />
@@ -876,14 +831,14 @@ export const Projects = ({ isDarkMode }) => {
                 href="https://github.com/LuanRebuli/create-user-react"
                 target="_blank"
               >
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a
                 href="https://github.com/LuanRebuli/create-user-react"
                 target="_blank"
               >
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>
@@ -902,13 +857,7 @@ export const Projects = ({ isDarkMode }) => {
           </div>
           <div className="direita">
             <h1>PokeDex</h1>
-            <span>
-              Desenvolvi uma Pokédex simples utilizando JavaScript para consumir
-              a PokéAPI. A aplicação permite pesquisar por Pokémon e exibir
-              informações como nome, tipo, habilidades e sprite. Este projeto
-              foi fundamental para consolidar meus conhecimentos em JavaScript e
-              me introduziu ao mundo das APIs.
-            </span>
+            <span>{t("Projects.PokeDex.Text")}</span>
             <div className="tecnologias">
               <img src={TS} />
               <img src={Vite} />
@@ -917,11 +866,11 @@ export const Projects = ({ isDarkMode }) => {
 
             <div className="buttons">
               <a href="https://pokedex-two-murex.vercel.app/" target="_blank">
-                <button>Abra em seu navegador</button>
+                <button>{t("Projects.Navigator")}</button>
               </a>
 
               <a href="https://github.com/LuanRebuli/pokedex" target="_blank">
-                <button>Repositorio</button>
+                <button>{t("Projects.GitHub")}</button>
               </a>
             </div>
           </div>

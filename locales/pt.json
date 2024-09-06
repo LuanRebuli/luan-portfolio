@@ -1,6 +1,5 @@
 {
   "input": { "placeholder": "Nome" },
-  "image": "https://previews.dropbox.com/p/thumb/ACXWWQracCPtL6rHkWO8F_q4TcvkVWKWiQE9x9vVSIfUJGuJeg3WAchsi7yfSIM8U0TX2dWA_Wc3pLGXqfSkzvvcL26m6rRPEypGHWJYJwrD_im3W4bHIVL-T1Cff8ny44Ze1DZHo2xnq7faIWHC1uyIAW0NLSwtur2Kshj5zDCVor4y6NRryxcjaNOGf2evFrg3DtiBdJNoU9j2zhL-r63r7QWBu4aa9kN8JVWjLDKekGoizt_6g5d3Ayx5l6xfMMISQMVhXTn4g4AQYJSoj9E8kvcHb0vr7goPnskxlmU_Dipv3URI1gA4fKw1A4KpwY5cQMMRN1gG-L01MDzii5bKFFsnIPj4J3T_es9MB12rqQ/p.png",
   "Introduction": {
     "placeholder": "Pesquisar",
     "IntroductionOrnament": "Introdução"
@@ -10,7 +9,7 @@
     "ConstName": "Nome",
     "ConstAge": "Idade",
     "ConstAbouth": "Sobre",
-    "MessageComplet": "`Olá tudo bem? me chamo ${name} e tenho ${age}, esse é o meu portfolio simulando um mab book, fiz esse projeto com intuito de deixar meu projetos visualmente legal para pessoas que desejam me conhecer. Clique nos icones abaixo e poderá descobrir todas as funções do mac book, dentre projects, linkedin, github, contato, configuração para mudar o tema, linguagem. Obrigado pela atenção e vamos codar! 😁`"
+    "MessageComplet": "`Olá tudo bem? me chamo ${name} e tenho ${age}, esse é o meu portfolio simulando um mab book, fiz esse projeto com intuito de deixar meu projetos visualmente legal para pessoas que desejam me conhecer. Clique nos icones abaixo e poderá descobrir todas as funções do mac book, dentre projetos, habilidades, sobre, linkedin, github, contato. Botões mudar o tema e a linguagem. Obrigado pela atenção e vamos codar! 😁`"
   },
   "Hotbar": {
     "Projects": "Projetos",
@@ -18,6 +17,48 @@
     "Profile": "Sobre"
   },
   "Projects": {
-    "Tittle": "Projetos"
+    "Tittle": "Projetos",
+    "Navigator": "Abra em seu navegador",
+    "GitHub": "Repositorio",
+    "FSWBarber": {
+      "Text": "Este projeto foi desenvolvido durante a Full Stack Week da Full Stack Club. Eu gosto de participar de eventos de programação, que sempre temos o que aprender e nessa vez não foi diferente e me mostrou a importância de commits com padronização, a eficiência do next js e do tailwindcss. Fiz a responsabilidade total do projeto sozinho. O projeto em si foi de uma barbearia com sistema de agendamentos com banco de dados, pesquisa de barbearia e serviços, sistema de login com google."
+    },
+    "NlwExpert": {
+      "Text": "Participei do evento da RocketSeat, junto com o professor Diego Fernandes que me ensinou várias coisas. Desenvolvimento de uma aplicação front-end em ReactJS, aplicação dos conceitos de Propriedades, Estados e Componentes, tipagem com Typescript, tooling com Vite, interface responsiva com TailwindCSS, uso de APIs da Web como Web Storage e Web Speech."
+    },
+    "LuanPortfolio": {
+      "Text": "Criei esse meu portfólio pessoal inspirado no design do MacBook. Utilizando React JS e Styled Components, cada seção funciona como um aplicativo independente, proporcionando uma experiência inovadora para o usuário. Com a opção de escolher entre temas claro e escuro e usei o i18 para possibilidade de alternar entre português e inglês. Este projeto me permitiu explorar minha criatividade e foi realizador fazer esse codigo e muito divertido, o principal eu diria."
+    },
+    "DevBurguer": {
+      "Text": "Criado como trabalho de conclusão do curso Dev Club, este projeto full stack simula uma hamburgueria online completa. Com um carrinho de compras intuitivo, sistema de login protegido por senha criptografada e diversas opções de pagamento, oferece uma experiência de compra completa."
+    },
+    "NauticaMidia": {
+      "Text": "Como freelancer, desenvolvi um site para uma empresa de comunicação visual, utilizando React JS, Next-JS, TypeScript, Tailwind CSS e Shadcn. Criei uma plataforma personalizada e dinâmica, capaz de apresentar uma ampla variedade de designs de placas e faixadas de forma visualmente impactante. A combinação dessas tecnologias permitiu construir uma solução robusta e escalável, atendendo às necessidades específicas do cliente."
+    },
+    "WeatherApp": {
+      "Text": "Vamos conhecer o Clima."
+    },
+    "PokeDex": {
+      "Text": "Desenvolvi uma Pokédex simples utilizando JavaScript para consumir a PokéAPI. A aplicação permite pesquisar por Pokémon e exibir informações como nome, tipo, habilidades e sprite. Este projeto foi fundamental para consolidar meus conhecimentos em JavaScript e me introduziu ao mundo das APIs."
+    },
+    "TodoList": {
+      "Text": "Este projeto tem um marcador de tarefas, exclua e salve a última lista feita após recarregar ou sair do site."
+    },
+    "CreateUser": {
+      "Text": "Projeto do curso Dev-Club para React e Node para aprender a usar front-end e backend juntamente com professor Rodolfo Mori."
+    }
+  },
+  "Skills": {
+    "Const": "habilidades",
+    "Tittle": " = `Tecnologias/Linguagens que eu programado/uso`"
+  },
+  "Abouth": {
+    "ConstLinguages": " idiomas",
+    "ConstFuture": " futuro",
+    "ConstAbouth": " sobre",
+    "ConstHistory": " historia",
+    "Tittle": " = `Conheça mais sobre mim`",
+    "History": " = `E aí, developers! Sou o Luan, um gamer de carteirinha que se apaixonou por programação. Comecei com 4 anos de vida, jogando e após uns anos nesse mundo quadrado, comecei a desenvolver plugins no Minecraft e depois fui além, desenvolvendo scripts para deixar o GTA RP ainda mais divertido. Hoje, vivo escrevendo código em React e me divertindo muito com isso! Mas, quando não estou na frente do computador, você pode me encontrar pegando onda 🌊, mandando umas tricks no skate 🛹 ou dunkando no basquete, um fanatico por competir. Ah, e claro, não deixo de lado a academia para manter o corpo em forma. Vida de programador que ama a vida, né?`",
+    "Languages": " = ` Sou nascido em Campinas, São Paulo e me mudei com 1 ano para o Litoral Paranaense, sou fluênte em português e tenho nivel intermediario de inglês.`"
   }
 }
