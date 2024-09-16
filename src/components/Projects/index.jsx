@@ -16,15 +16,15 @@ import {
 } from "./styles";
 
 import ThreeBollsImg from "../../assets/threebolls.png";
-import FSW from "../../assets/mockupfsw.png";
-import NLW from "../../assets/mockupnlw.png";
-import Portfolio from "../../assets/mockupportfolio.png";
-import Devburguer from "../../assets/mockupdevburger.png";
-import NauticaMidia from "../../assets/nautica.png";
-import weather from "../../assets/weather.png";
-import Pokedex from "../../assets/pokedex.png";
-import TodoList from "../../assets/todolist.png";
-import CreateUser from "../../assets/createuser.png";
+import FSW from "../../assets/mockupfsw.svg";
+import NLW from "../../assets/mockupnlw.svg";
+import Portfolio from "../../assets/mockupportfolio.svg";
+import Devburguer from "../../assets/mockupdevburger.svg";
+import NauticaMidia from "../../assets/nautica.svg";
+import weather from "../../assets/weather.svg";
+import Pokedex from "../../assets/pokedex.svg";
+import TodoList from "../../assets/todolist.svg";
+import CreateUser from "../../assets/createuser.svg";
 import JS from "../../assets/javascript.png";
 import React from "../../assets/react.png";
 import TS from "../../assets/typescript.png";
