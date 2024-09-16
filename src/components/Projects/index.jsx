@@ -518,10 +518,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectFSW}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectFSW}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={FSW} width={600} height={300} />
           </div>
           <div className="direita">
@@ -557,10 +557,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectNLW}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectNLW}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={NLW} width={600} height={300} />
           </div>
           <div className="direita">
@@ -596,10 +596,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectBurguer}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectBurguer}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={Devburguer} width={600} height={300} />
           </div>
           <div className="direita">
@@ -634,10 +634,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectPortfolio}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectPortfolio}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={Portfolio} width={600} height={300} />
           </div>
           <div className="direita">
@@ -671,10 +671,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectNautica}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectNautica}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={NauticaMidia} width={600} height={300} />
           </div>
           <div className="direita">
@@ -705,10 +705,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectTodoList}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectTodoList}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={TodoList} width={600} height={300} />
           </div>
           <div className="direita">
@@ -740,10 +740,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectWeather}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectWeather}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={weather} width={600} height={300} />
           </div>
           <div className="direita">
@@ -775,10 +775,10 @@ export const Projects = ({ isDarkMode }) => {
         <></>
       ) : (
         <FSWDiv>
+          <button className="arrow" onClick={handleBackProjectCreateUser}>
+            <ArrowLeft size={30} />
+          </button>
           <div className="esquerda">
-            <button className="arrow" onClick={handleBackProjectCreateUser}>
-              <ArrowLeft size={30} />
-            </button>
             <img src={CreateUser} width={600} height={300} />
           </div>
           <div className="direita">

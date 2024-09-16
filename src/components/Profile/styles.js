@@ -12,8 +12,8 @@ export const ContainerOpen = styled.div``;
 export const SecondContainerLight = styled.div`
   display: flex;
 
-  width: 1300px;
-  height: 670px;
+  width: 1250px;
+  height: 620px;
 
   background: #ffffff;
 
@@ -69,23 +69,34 @@ export const SecondContainerLight = styled.div`
       }
     }
   }
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 600px) {
     width: 350px;
     height: 440px;
     margin-bottom: 40px;
     h1 {
       font-size: 25px;
-      
     }
     h2 {
       font-size: 22px;
-     
     }
     .infos {
-
       img {
         visibility: hidden;
       }
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 22px;
     }
   }
 `;
@@ -93,8 +104,8 @@ export const SecondContainerLight = styled.div`
 export const SecondContainerDark = styled.div`
   display: flex;
 
-  width: 1300px;
-  height: 670px;
+  width: 1250px;
+  height: 620px;
 
   background: #363431;
 
@@ -150,23 +161,34 @@ export const SecondContainerDark = styled.div`
       }
     }
   }
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 600px) {
     width: 350px;
     height: 440px;
     margin-bottom: 40px;
     h1 {
       font-size: 25px;
-      
     }
     h2 {
       font-size: 22px;
-     
     }
     .infos {
-
       img {
         visibility: hidden;
       }
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 22px;
     }
   }
 `;

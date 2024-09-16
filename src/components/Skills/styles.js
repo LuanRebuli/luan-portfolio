@@ -13,8 +13,8 @@ export const ContainerOpen = styled.div``;
 export const SecondContainerLight = styled.div`
   display: flex;
 
-  width: 1300px;
-  height: 670px;
+  width: 1250px;
+  height: 620px;
 
   background: #ffffff;
 
@@ -50,11 +50,10 @@ export const SecondContainerLight = styled.div`
       opacity: 0.8;
     }
   }
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 600px) {
     width: 350px;
     height: 440px;
     margin-bottom: 40px;
-
 
     h1 {
       font-size: 20px;
@@ -69,13 +68,42 @@ export const SecondContainerLight = styled.div`
       }
     }
   }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+    h1 {
+      font-size: 30px;
+    }
+    .tecnologias {
+      img {
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+      }
+    }
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+
+    h1 {
+      font-size: 27px;
+    }
+    .tecnologias {
+      img {
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+      }
+    }
+  }
 `;
 
 export const SecondContainerDark = styled.div`
   display: flex;
 
-  width: 1300px;
-  height: 670px;
+  width: 1250px;
+  height: 620px;
 
   background: #363431;
 
@@ -86,7 +114,7 @@ export const SecondContainerDark = styled.div`
 
   h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: "Irish Grover", system-ui;
     font-weight: 500;
     color: #ffae50;
@@ -111,11 +139,10 @@ export const SecondContainerDark = styled.div`
       opacity: 0.8;
     }
   }
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 600px) {
     width: 350px;
     height: 440px;
     margin-bottom: 40px;
-
 
     h1 {
       font-size: 20px;
@@ -127,6 +154,35 @@ export const SecondContainerDark = styled.div`
       img {
         width: 50px;
         height: 50px;
+      }
+    }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+    h1 {
+      font-size: 30px;
+    }
+    .tecnologias {
+      img {
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
+      }
+    }
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+
+    h1 {
+      font-size: 27px;
+    }
+    .tecnologias {
+      img {
+        width: 100px;
+        height: 100px;
+        margin-left: 15px;
       }
     }
   }

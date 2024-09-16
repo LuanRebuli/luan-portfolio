@@ -13,8 +13,8 @@ export const ContainerOpen = styled.div``;
 export const SecondContainerLight = styled.div`
   display: grid;
 
-  width: 1300px;
-  height: 670px;
+  width: 1250px;
+  height: 620px;
 
   background: #ffffff;
 
@@ -30,13 +30,21 @@ export const SecondContainerLight = styled.div`
     height: 440px;
     margin-bottom: 40px;
   }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+  }
 `;
 
 export const SecondContainerDark = styled.div`
   display: grid;
 
-  width: 1300px;
-  height: 670px;
+  width: 1250px;
+  height: 620px;
 
   background: #363431;
 
@@ -51,6 +59,15 @@ export const SecondContainerDark = styled.div`
     width: 350px;
     height: 440px;
     margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
   }
 `;
 
@@ -82,6 +99,27 @@ export const ProjectDiv = styled.div`
       height: 100px;
     }
   }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+    p {
+      font-size: 15px;
+    }
+
+    img {
+      width: 250px;
+      height: 150px;
+    }
+  }
+
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
 `;
 
 export const FSWDiv = styled.div`
@@ -112,9 +150,9 @@ export const FSWDiv = styled.div`
     background: transparent;
     outline: none;
     border: none;
-    position: absolute;
-    top: 150px;
-    left: 320px;
+    position: relative;
+    top: -290px;
+    left: 50px;
     cursor: pointer;
   }
 
@@ -164,7 +202,7 @@ export const FSWDiv = styled.div`
       }
     }
   }
-  @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 600px) {
     width: 350px;
     height: 440px;
     margin-bottom: 40px;
@@ -173,6 +211,15 @@ export const FSWDiv = styled.div`
       visibility: hidden;
       width: 0;
       height: 0;
+    }
+    .arrow {
+      background: transparent;
+      outline: none;
+      border: none;
+      position: absolute;
+      top: 100px;
+      left: 30px;
+      cursor: pointer;
     }
     span {
       color: #000000;
@@ -196,10 +243,105 @@ export const FSWDiv = styled.div`
     }
     .buttons {
       button {
-      width: 130px;
-      height: 30px;
-      font-size: 10px;
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
+      }
     }
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1300px) {
+    width: 900px;
+    height: 500px;
+
+    .esquerda {
+      img {
+        width: 400px;
+        height: 250px;
+      }
+    }
+    .arrow {
+      background: transparent;
+      outline: none;
+      border: none;
+      position: absolute;
+      top: 110px;
+      left: 210px;
+      cursor: pointer;
+    }
+    span {
+      color: #000000;
+
+      font-weight: 500;
+      font-size: 20px;
+      margin: 0 10px 0 15px;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 25px;
+    }
+    .tecnologias {
+      margin-top: 20px;
+
+      img {
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .buttons {
+      button {
+        width: 160px;
+        height: 30px;
+        font-size: 13px;
+      }
+    }
+  }
+  @media screen and (min-width: 650px) and (max-width: 990px) {
+    width: 730px;
+    height: 600px;
+
+    .esquerda {
+      img {
+        width: 350px;
+        height: 200px;
+      }
+    }
+    .arrow {
+      background: transparent;
+      outline: none;
+      border: none;
+      position: absolute;
+      top: 240px;
+      left: 80px;
+      cursor: pointer;
+    }
+    span {
+      color: #000000;
+
+      font-weight: 500;
+      font-size: 18px;
+      margin: 0 10px 0 15px;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 23px;
+    }
+    .tecnologias {
+      margin-top: 20px;
+      margin-left: 10px;
+
+      img {
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .buttons {
+      button {
+        width: 160px;
+        height: 30px;
+        font-size: 13px;
+      }
     }
   }
 `;

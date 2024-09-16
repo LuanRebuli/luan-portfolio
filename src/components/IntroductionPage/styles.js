@@ -16,8 +16,8 @@ export const ContainerOpen = styled.div`
 export const SecondContainerLight = styled.div` 
     display: flex;
 
-    width: 1300px;
-    height: 670px;
+    width: 1250px;
+    height: 620px;
 
     background: #FFFFFF;
 
@@ -26,10 +26,20 @@ export const SecondContainerLight = styled.div`
 
     margin-bottom: 60px;
 
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 600px) {
         width: 350px;
         height: 440px;
         margin-bottom: 40px;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        width: 900px;
+        height: 500px;
+    }
+
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 730px;
+        height: 600px;
     }
     
 `
@@ -37,8 +47,8 @@ export const SecondContainerLight = styled.div`
 export const SecondContainerDark = styled.div` 
     display: flex;
 
-    width: 1300px;
-    height: 670px;
+    width: 1250px;
+    height: 620px;
 
     background: #363431;
 
@@ -47,10 +57,25 @@ export const SecondContainerDark = styled.div`
 
     margin-bottom: 60px;
     
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 600px) {
         width: 350px;
         height: 440px;
         margin-bottom: 40px;
+    }
+    
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        width: 900px;
+        height: 500px;
+    }
+
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 730px;
+        height: 600px;
+    }
+
+        @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 730px;
+        height: 600px;
     }
     
 `
@@ -64,11 +89,18 @@ export const LeftContainer = styled.div`
     width: 30%;
     border-right: 1px solid #31363F;
 
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 600px) {
         height: 0;
         width: 0;
         border: none;
     }
+
+    
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 40%;
+    }
+
+
 `
 
 export const RightContainer = styled.div`
@@ -202,9 +234,22 @@ export const InputSearchLight = styled.input`
     border: none;
 
     text-align: center;
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 650px) {
         visibility: hidden;
     }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        width: 200px;
+        height: 45px;
+        margin: 0 0 40px 35px;
+    }
+
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 195px;
+        height: 45px;
+        margin: 0 0 40px 35px;
+    }
+    
 `
 
 export const InputSearchDark = styled.input`
@@ -218,8 +263,20 @@ export const InputSearchDark = styled.input`
     border: none;
 
     text-align: center;
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 650px) {
         visibility: hidden;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        width: 200px;
+        height: 45px;
+        margin: 0 0 40px 35px;
+    }
+
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 195px;
+        height: 45px;
+        margin: 0 0 40px 35px;
     }
 `
 
@@ -256,8 +313,25 @@ export const IntrodutionOrnamentLight = styled.div`
         color: #A2A2A2;
     font-size: 12px;
     }
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 650px) {
         visibility: hidden;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        width: 240px;
+        height: 53px;
+        margin: 0 0 260px 15px;
+    }
+
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 230px;
+        height: 53px;
+        margin: 0 20px 240px 15px;
+
+
+        .text {
+            margin-left: 20px;
+        }
     }
 `
 
@@ -294,8 +368,24 @@ export const IntrodutionOrnamentDark = styled.div`
         color: #A2A2A2;
     font-size: 12px;
     }
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 650px) {
         visibility: hidden;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        width: 240px;
+        height: 53px;
+        margin: 0 0 240px 15px;
+    }
+    @media screen and (min-width: 650px) and (max-width: 990px) {
+        width: 230px;
+        height: 53px;
+        margin: 0 20px 240px 15px;
+
+
+        .text {
+            margin-left: 20px;
+        }
     }
 `
 
@@ -315,8 +405,12 @@ export const ProfileLight = styled.div`
     p {
         font-size: 13px;
     }
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 650px) {
         visibility: hidden;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        margin: 0 0 10px 5px;
     }
 `
 
@@ -337,7 +431,11 @@ export const ProfileDark = styled.div`
         font-size: 13px;
         color: white;
     }
-    @media screen and (max-width: 1020px) {
+    @media screen and (max-width: 650px) {
         visibility: hidden;
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1300px) {
+        margin: 0 0 10px 5px;
     }
 `

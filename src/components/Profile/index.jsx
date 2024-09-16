@@ -12,7 +12,6 @@ import {
 } from "./styles";
 
 import ThreeBollsImg from "../../assets/threebolls.png";
-import Luan from "../../assets/luan.png";
 
 export const Abouth = ({ isDarkMode }) => {
   const [isClose, setClose] = useState(false);
@@ -43,7 +42,6 @@ export const Abouth = ({ isDarkMode }) => {
                 </h1>
 
                 <div className="infos">
-                  <img src={Luan} />
                   <div className="texts">
                     <h2 id="constname">
                       <a className="const">const</a>
@@ -75,7 +73,6 @@ export const Abouth = ({ isDarkMode }) => {
                 </h1>
 
                 <div className="infos">
-                  <img src={Luan} />
                   <div className="texts">
                     <h2 id="constname">
                       <a className="const">const</a>
