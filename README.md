@@ -18,6 +18,12 @@ Criei esse meu portfólio pessoal inspirado no design do MacBook. Utilizando Rea
 [Vite] <br>
 [i18n] <br>
 
+## 🖥️ Future updates
+
+[❌ Sistema de Contato] <br>
+[❌ Menu de Configuração(Editar Background, etc] <br>
+[❌ Atualização na abas de Sobre e Habilidades] <br>
+
 ## Run Project in you Navigator
 
 https://luan-portfolio-tau.vercel.app
